@@ -1,0 +1,7 @@
+#!/bin/bash
+
+defaults="/usr/bin/defaults"
+
+${defaults} write /Library/Preferences/com.sas.jmp.plist Setinit_13_Path "/Library/Application Support/JMP/13/JMP.per"
+
+exit
